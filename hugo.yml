@@ -1,7 +1,8 @@
-baseURL: "https://examplesite.com/"
-title: Young`s Blog
+baseURL: "https://blog.promonkeyli.top/"
+title: Young`s blog
 pagerSize: 5
 theme: PaperMod
+copyright: "@2025 Young"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -15,11 +16,11 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Young
-  description: "ExampleSite description"
-  keywords: [Young, PaperMod, hugo]
+  description: "Young`s blog by hugo"
+  keywords: [Young,promonkeyli, PaperMod, hugo]
   author: Young
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+#  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -28,13 +29,13 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -43,23 +44,23 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "apple-touch-icon.png"
 
   label:
     text: "Home"
     icon: /apple-touch-icon.png
-    iconHeight: 35
+    iconHeight: 25
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: Young
+    subtitle: "爱自己是终生浪漫的开始"
+    imageUrl: "avatar.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -71,17 +72,20 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi Everybody \U0001F44B"
-    Content: Welcome to Young`s blog
+    Title: "Hi 👋, Welcome to Young's Playground 🎉"
+    Content:  |
+     A front-end engineer who plays with code 💻, design 🎨, and adds a touch of magic ✨.    
+     Discover projects, experiments, and ideas coming to life ⬇️.  
+     Grab a cup of ☕ and let's code, create, and have fun 🚀!
 
   socialIcons:
     - name: bilibili
-      url: "https://x.com/"
+      url: "https://space.bilibili.com/125441145"
     - name: email
       url: "mailto:liyang_email@163.com"
     - name: github
       url: "https://github.com/promonkeyli"
-    - name: website
+    - name: web
       url: "https://promonkeyli.top"
 
   analytics:
@@ -98,7 +102,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/promonkeyli/blog/tree/master/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

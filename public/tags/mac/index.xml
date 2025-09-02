@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Young`s blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Young`s blog</description>
+    <title>Mac on Young`s blog</title>
+    <link>http://localhost:1313/tags/mac/</link>
+    <description>Recent content in Mac on Young`s blog</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>@2025 Young</copyright>
     <lastBuildDate>Mon, 01 Sep 2025 22:56:08 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MacOS Homebrew 更换清华源</title>
       <link>http://localhost:1313/posts/homebrew%E6%9B%B4%E6%8D%A2%E6%B8%85%E5%8D%8E%E6%BA%90/</link>
