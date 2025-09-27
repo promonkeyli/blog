@@ -7,35 +7,21 @@
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>@2025 Young</copyright>
-    <lastBuildDate>Mon, 01 Sep 2025 22:56:08 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Sep 2025 21:11:08 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MacOS Homebrew 更换清华源</title>
-      <link>http://localhost:1313/posts/homebrew%E6%9B%B4%E6%8D%A2%E6%B8%85%E5%8D%8E%E6%BA%90/</link>
+      <title>Go 语言环境安装以及包源配置</title>
+      <link>http://localhost:1313/posts/go/go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%8C%85%E6%BA%90%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 27 Sep 2025 21:11:08 +0800</pubDate>
+      <guid>http://localhost:1313/posts/go/go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%8C%85%E6%BA%90%E9%85%8D%E7%BD%AE/</guid>
+      <description>Go 语言开发环境配置过程记录（Mac下配置）</description>
+    </item>
+    <item>
+      <title>mac 安装 Homebrew 并使用国内镜像源</title>
+      <link>http://localhost:1313/posts/mac/mac%E5%AE%89%E8%A3%85homebrew%E5%B9%B6%E4%BD%BF%E7%94%A8%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90/</link>
       <pubDate>Mon, 01 Sep 2025 22:56:08 +0800</pubDate>
-      <guid>http://localhost:1313/posts/homebrew%E6%9B%B4%E6%8D%A2%E6%B8%85%E5%8D%8E%E6%BA%90/</guid>
-      <description>&lt;h4 id=&#34;homebrew是macos是的包管理工具官方源国内访问比较慢下面是推荐的清华源的切换方式适用两种不同的shell&#34;&gt;homebrew是macos是的包管理工具，官方源国内访问比较慢，下面是推荐的清华源的切换方式，适用两种不同的shell&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;bash&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;eval &amp;#34;$(/opt/homebrew/bin/brew shellenv)&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bash_profile
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export HOMEBREW_BREW_GIT_REMOTE=&amp;#34;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bash_profile
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export HOMEBREW_CORE_GIT_REMOTE=&amp;#34;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bash_profile
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export HOMEBREW_API_DOMAIN=&amp;#34;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bash_profile
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export HOMEBREW_BOTTLE_DOMAIN=&amp;#34;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bash_profile
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;zsh&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;eval &amp;#34;$(/opt/homebrew/bin/brew shellenv)&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.zprofile
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export HOMEBREW_BREW_GIT_REMOTE=&amp;#34;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.zprofile
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export HOMEBREW_CORE_GIT_REMOTE=&amp;#34;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.zprofile
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export HOMEBREW_API_DOMAIN=&amp;#34;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.zprofile
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export HOMEBREW_BOTTLE_DOMAIN=&amp;#34;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.zprofile
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;homebrew国内常用源&#34;&gt;homebrew国内常用源&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;清华源: &lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/&#34;&gt;https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;阿里源: &lt;a href=&#34;https://developer.aliyun.com/mirror/homebrew/&#34;&gt;https://developer.aliyun.com/mirror/homebrew/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/posts/mac/mac%E5%AE%89%E8%A3%85homebrew%E5%B9%B6%E4%BD%BF%E7%94%A8%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90/</guid>
+      <description>mac安装 Homebrew 以及常见镜像源配置记录</description>
     </item>
   </channel>
 </rss>
