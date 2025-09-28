@@ -62,4 +62,12 @@ go env                      # 查看 Go 环境变量
 go clean -modcache          # 清理依赖缓存（GOPATH/pkg/mod）
 go clean -testcache         # 清理测试缓存
 
+# 其他
+go help                     # go常见命令查看
+go bug                      # go bug反馈
+go fix                      # api升级助手，旧的api使用该命令后自动进行升级
+go generate                 # 在源码里标记要执行的命令 → go generate 扫描注释并运行 → 自动生成代码文件
+go work                     # 管理多模块工作区，方便在本地同时开发多个 Go 模块，避免频繁写
+go tool                     # go tool 提供了底层的“专业工具箱”，用于调试、分析、编译细节
+go vet                      # Go 的静态检查工具，用来发现可能导致 bug 的代码，而不是格式问题
 ```
