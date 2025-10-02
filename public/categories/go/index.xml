@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>@2025 Young</copyright>
-    <lastBuildDate>Mon, 29 Sep 2025 20:14:32 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 08:32:35 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go语言中的循环</title>
+      <link>http://localhost:1313/posts/go/go%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%BE%AA%E7%8E%AF/</link>
+      <pubDate>Thu, 02 Oct 2025 08:32:35 +0800</pubDate>
+      <guid>http://localhost:1313/posts/go/go%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%BE%AA%E7%8E%AF/</guid>
+      <description>Go 语言中的循环记录</description>
+    </item>
     <item>
       <title>Go语言数据类型与变量声明</title>
       <link>http://localhost:1313/posts/go/go%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E/</link>
