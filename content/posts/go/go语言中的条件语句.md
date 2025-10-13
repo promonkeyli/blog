@@ -5,7 +5,6 @@ title = 'Go语言中的条件语句'
 summary = 'Go 语言中的条件语法记录'
 categories = [ 'go' ]
 tags = [ 'go' ]
-
 +++
 
 > go语言中没有三元表达式，通常使用if/else以及switch
