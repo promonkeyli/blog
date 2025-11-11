@@ -7,8 +7,29 @@
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>@2025 Young</copyright>
-    <lastBuildDate>Tue, 14 Oct 2025 21:23:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 20:59:47 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database</title>
+      <link>http://localhost:1313/tags/database/</link>
+      <pubDate>Tue, 11 Nov 2025 20:59:47 +0800</pubDate>
+      <guid>http://localhost:1313/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
+      <pubDate>Wed, 05 Nov 2025 22:45:41 +0800</pubDate>
+      <guid>http://localhost:1313/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:1313/tags/mysql/</link>
+      <pubDate>Wed, 05 Nov 2025 22:45:41 +0800</pubDate>
+      <guid>http://localhost:1313/tags/mysql/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Go</title>
       <link>http://localhost:1313/tags/go/</link>

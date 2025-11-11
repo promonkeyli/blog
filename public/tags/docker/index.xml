@@ -10,7 +10,7 @@
     <lastBuildDate>Wed, 05 Nov 2025 22:45:41 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mysql8.0 Docker Compose.yml文件配置</title>
+      <title>mysql8.0中docker-compose.yml文件配置</title>
       <link>http://localhost:1313/posts/docekr/mysql8.0-docker-compose.yml%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Wed, 05 Nov 2025 22:45:41 +0800</pubDate>
       <guid>http://localhost:1313/posts/docekr/mysql8.0-docker-compose.yml%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/</guid>

@@ -7,8 +7,29 @@
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>@2025 Young</copyright>
-    <lastBuildDate>Tue, 14 Oct 2025 21:23:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 20:59:47 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数据库(关系型)设计最佳实践</title>
+      <link>http://localhost:1313/posts/database/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Tue, 11 Nov 2025 20:59:47 +0800</pubDate>
+      <guid>http://localhost:1313/posts/database/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description>总结关系型数据库设计最佳实践</description>
+    </item>
+    <item>
+      <title>数据库(非关系型)设计最佳实践</title>
+      <link>http://localhost:1313/posts/database/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Tue, 11 Nov 2025 20:59:47 +0800</pubDate>
+      <guid>http://localhost:1313/posts/database/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description>总结非关系型数据库设计最佳实践</description>
+    </item>
+    <item>
+      <title>mysql8.0中docker-compose.yml文件配置</title>
+      <link>http://localhost:1313/posts/docekr/mysql8.0-docker-compose.yml%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Wed, 05 Nov 2025 22:45:41 +0800</pubDate>
+      <guid>http://localhost:1313/posts/docekr/mysql8.0-docker-compose.yml%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/</guid>
+      <description>Mysql 8.0 版本 docker-compose.yml配置文件记录</description>
+    </item>
     <item>
       <title>Go语言中的Map结构</title>
       <link>http://localhost:1313/posts/go/go%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84map%E7%BB%93%E6%9E%84/</link>
