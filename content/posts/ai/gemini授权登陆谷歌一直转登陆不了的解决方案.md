@@ -12,16 +12,16 @@ tags = [ 'ai' ]
 
 Windows (CMD):
 ```shell
-set https_proxy=http://127.0.0.1:10808
+set https_proxy=http://127.0.0.1:7089
 ```
 
 Windows (PowerShell):
 ```shell
-$env:https_proxy="http://127.0.0.1:10808"
+$env:https_proxy="http://127.0.0.1:7089"
 ```
 
 macOS / Linux (Bash/Zsh):
 ```shell
-export https_proxy=http://127.0.0.1:10808
+export https_proxy=http://127.0.0.1:7089
 ```
-注意： 请将 10808 替换为你的代理软件（比如 clashx）实际使用的 HTTP 代理端口
+注意： 请将 7089 替换为你的代理软件（比如 clashx使用的默认端口是7089）实际使用的 HTTP 代理端口，每一次重新进入命令行都需要先输入上面的shell再使用gemini命令才行，这个配置是临时有效
