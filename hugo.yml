@@ -2,7 +2,7 @@ baseURL: "https://blog.promonkeyli.top/"
 title: Young`s blog
 pagerSize: 5
 theme: PaperMod
-copyright: "@2025 Young"
+copyright: "@2025-present Young"
 
 enableRobotsTXT: true
 buildDrafts: false

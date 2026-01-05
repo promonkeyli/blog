@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on Young`s blog</title>
     <link>http://localhost:1313/categories/go/</link>
     <description>Recent content in Go on Young`s blog</description>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>@2025 Young</copyright>
+    <copyright>@2025-present Young</copyright>
     <lastBuildDate>Mon, 01 Dec 2025 21:24:51 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
